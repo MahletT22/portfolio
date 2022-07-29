@@ -1,0 +1,156 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.headings{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    position: Sticky;
+    top: 0; 
+    z-index: 2; 
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family:century;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    padding:8px 25px;
+    transition:all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+}
+.About{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 20px;
+   
+}
+
+#AboutMe h3{
+    text-align: center;
+}
+.wrapper{
+    /* content: "";  */
+     /* position: absolute;  */
+     top: 0;
+    right: 0; 
+    background-image: url('./image/backgr3.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:900px;
+    width:100%;
+    z-index:-1; 
+    opacity:.8;
+} 
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    color: aliceblue;
+    align-items: center;
+    position: absolute;
+    padding: 40px;
+    top: 30%;
+    right: 40%;
+}
+
+
+.btn{
+    color: rgba(243, 234, 234, 0.878);
+    padding:10px 35px;
+    margin: 15px 5px;
+    border: 2px solid rgb(7, 149, 87);
+    outline: none;
+    transition: .6s ease;
+}
+.bt{
+    color: black;
+}
+
+.btn:hover{
+    cursor:pointer;
+    color: black;
+    background-color: white;
+    box-shadow:0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+.btm{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 40px;
+
+}
+.btm .icon{
+    font-size: 70px;
+    
+}
+.btm .icon:hover{
+    font-size: 90px;
+    
+}
+.btm ul li i{
+  
+    padding: 2px;
+    color:rgb(32, 73, 3)
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.contactMe{
+    margin: 20px 20%;
+}
+
+.shared{
+    width: 250px;
+    text-align: center;
+    margin: 5px 0 10px;
+
+}
+#message{
+    width: 250px;
+}
+
+
+footer{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
